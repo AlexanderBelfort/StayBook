@@ -3,33 +3,34 @@ import './App.css';
 import Home from './Home';
 import Header from './Header';
 import Footer from './Footer';
+import SearchPage from './SearchPage';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 
 function App() {
   return (
 
     //bem naming convention
     <div className="app">
-      {/*<h1>staybook</h1>*/}
+      <Router>    
+        <Header />
 
-      {/* Home */}
-      <Header />
-      <Home />
-      <Footer />
+        <Switch>
+          {/* /search */}
+          <Route path="/search">
+            <SearchPage />
+          </Route>
 
-          {/* Header */}
+          <Route path="/">
+            <Home />
+          </Route>
 
+          
+        </Switch>
 
-          {/* Banner */}
+        <Footer />
+      </ Router>
 
-            {/* Search Func */}
-
-          {/* Ads for booking */}
-
-          {/* Footer */}
-
-        {/* Search Page */}
-
-          {/* .... */}
 
 
     </div>
