@@ -38,10 +38,11 @@
     text-transform: inherit;
     background-color: #ff7779;
     color: white;
-    width: 379px;
+    width: 579px;
 }
 
 .search > button:hover {
+    position: absolute;
     background-color: white;
     color: #ff7779;
 }

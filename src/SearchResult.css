@@ -1,0 +1,84 @@
+.searchResult { /*posiiton everything in a row*/
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray; /*for the ceard look*/
+    opacity: 1;
+    cursor: pointer;
+}
+
+.searchResult:hover { 
+    /*add something like a 3d effect when hovering*/
+    opacity: 0.8;
+}
+
+.searchResult > img {
+    /*images are gigantic so fix them*/
+    height: 200px;
+    width: 350px;
+    /*round them up so
+    they appear more
+    3D like*/
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.searchResult__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.searchResult__heart {
+    /*we want
+    the heart to be position
+    in the top right corner*/
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.searchResult__infoTop {
+    width: 40vw;
+}
+
+.searchResult__infoTop > h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.searchResult__infoTop > p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+.searchResult__infoBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchResult__star {
+    color: #ff7779;
+}
+
+.searchResult__stars {
+    display: flex;
+    align-items: center;
+}
+
+.searchResults__price > p {
+    text-align: right;
+}
+
+.searchResults__price {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.searchResult__heart {
+    color: #ff7779;
+}

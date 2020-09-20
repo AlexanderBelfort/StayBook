@@ -8,6 +8,7 @@
 }
 
 .footer > p {
+    font-weight: 100;
     padding: 5px;
     font-size: 14px;
 }
