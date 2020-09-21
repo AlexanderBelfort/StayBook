@@ -71,12 +71,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 # FRONT PAGE 
 
-[frontpage](https://i.imgur.com/8iaDRPq.png)
+Responsible User Interface with Explore Dates and Search Nearby functionality working. Clicking on the logo will transfer the user to the homepage without refreshing. 
+
+![frontpage](https://i.imgur.com/8iaDRPq.png)
 
 # BOOKINGS PAGE
 
-[bookings](https://i.imgur.com/wMmbPGO.png)
+Responsible UI with no functionality. Clicking on the logo will transfer the user to the homepage without refreshing.
+
+![bookings](https://i.imgur.com/wMmbPGO.png)
 
 # BOOKINGS FUNC
 
-[book](https://i.imgur.com/lHYrEtE.png)
+Will select dates / days / people / etc. Needs more work. Search Nearby gets changed to Hide when clicked whereas the Search Places button transfers the user to the second page with all ads without refreshing the page.
+
+![book](https://i.imgur.com/lHYrEtE.png)
